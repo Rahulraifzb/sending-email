@@ -60,7 +60,7 @@ email_password = os.environ.get("EMAIL_PASSWORD")
 # msg["To"] = "rrai06125@gmail.com"
 # msg.set_content("Image attached...")
 
-# with open("avatar.png","rb") as f:
+# with open("src/avatar.png","rb") as f:
 #     file_data = f.read()
 #     file_type = imghdr.what(f.name)
 #     file_name = f.name
@@ -77,7 +77,7 @@ email_password = os.environ.get("EMAIL_PASSWORD")
 # msg["To"] = "rrai06125@gmail.com"
 # msg.set_content("Image attached..")
 
-# files = ["avatar.png","puppy.jpg"]
+# files = ["src/avatar.png","src/puppy.jpg"]
 
 # for file in files:
 #     with open(file,"rb") as f:
@@ -100,7 +100,7 @@ email_password = os.environ.get("EMAIL_PASSWORD")
 # msg["To"] = "rrai06125@gmail.com"
 # msg.set_content("Image attached..")
 
-# files = ["result.pdf"]
+# files = ["src/result.pdf"]
 
 # for file in files:
 #     with open(file,"rb") as f:
